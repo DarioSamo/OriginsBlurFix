@@ -1,0 +1,27 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Options",
+      "Elements": [
+        {
+          "Name": "Filter",
+          "DisplayName": "Filter",
+          "Type": "Filter",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "nearest.hlsl"
+        },
+      ]
+    }
+  ],
+  "Enums": {
+    "Filter": [
+	  {
+        "DisplayName": "Nearest",
+        "Value": "nearest.hlsl"
+      }
+    ]
+  },
+  "IniFile": "OriginsBlurFix.ini"
+}
