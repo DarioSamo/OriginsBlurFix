@@ -3,3 +3,7 @@ add nearest.hlsl
 add OriginsBlurFix.json
 add OriginsPixelFilter.dll
 add OriginsPixelFilter.ini
+add Clean.pso
+add CRT-Yee64.pso
+add CRT-Yeetron.pso
+add None.pso
