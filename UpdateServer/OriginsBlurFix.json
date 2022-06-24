@@ -5,7 +5,7 @@
       "DisplayName": "Options",
       "Elements": [
         {
-          "Name": "Filter",
+          "Name": "ShaderFileName",
           "DisplayName": "Filter",
           "Type": "Filter",
           "MinValue": null,
@@ -23,5 +23,5 @@
       }
     ]
   },
-  "IniFile": "OriginsBlurFix.ini"
+  "IniFile": "OriginsPixelFilter.ini"
 }

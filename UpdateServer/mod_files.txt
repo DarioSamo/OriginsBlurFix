@@ -1,4 +1,5 @@
-add OriginsPixelFilter.dll
 add mod.ini
-add pixel_filter.hlsl
-add pixel_filter.ps
+add nearest.hlsl
+add OriginsBlurFix.json
+add OriginsPixelFilter.dll
+add OriginsPixelFilter.ini
