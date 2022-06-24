@@ -13,5 +13,7 @@ cbuffer Globals : register(b0)
 float4 main(float4 svPos : SV_POSITION, float2 tc : TEXCOORD) : SV_TARGET
 {
 	uint2 tCoord = floor(tc * textureSize.xy);
-	return t_Source.Load(uint3(tCoord, 0));
+	float4 source = t_Source.Load(uint3(tCoord, 0));
+	float4 source1 = t_Source1.Load(uint3(tCoord, 0));
+	return float4(lerp(source.rgb, source1.rgb, source1.a), 1.0f);
 }
