@@ -1,0 +1,4 @@
+add OriginsPixelFilter.dll
+add mod.ini
+add pixel_filter.hlsl
+add pixel_filter.ps
