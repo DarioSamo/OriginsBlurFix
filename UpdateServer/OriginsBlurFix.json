@@ -10,7 +10,10 @@
                     "Type": "Filter",
                     "MinValue": null,
                     "MaxValue": null,
-                    "DefaultValue": "nearest.hlsl"
+                    "DefaultValue": "None.pso",
+                    "Description": [
+                        "Changes the upscaling filter used by the game."
+                    ]
                 },
             ]
         }
@@ -19,23 +22,38 @@
         "Filter": [
             {
                 "DisplayName": "Nearest",
-                "Value": "nearest.hlsl"
+                "Value": "nearest.hlsl",
+                "Description":[
+                   "Nearest pixel to the screen coordinate. Can cause shimmering artifacts."
+                ]
             },
             {
-                "DisplayName": "None",
-                "Value": "None.pso"
+                "DisplayName": "Sharp",
+                "Value": "None.pso",
+                "Description":[
+                   "Sonic Mania's None filter."
+                ]
             },
             {
-                "DisplayName": "Clean",
-                "Value": "Clean.pso"
+                "DisplayName": "Soft",
+                "Value": "Clean.pso",
+                "Description":[
+                   "Sonic Mania's Clean filter."
+                ]
             },
             {
-                "DisplayName": "CRT-Sharp",
-                "Value": "CRT-Yeetron.pso"
+                "DisplayName": "CRT Sharp",
+                "Value": "CRT-Yeetron.pso",
+                "Description":[
+                   "Sonic Mania's CRT Sharp filter."
+                ]
             },
             {
-                "DisplayName": "CRT-Soft",
-                "Value": "CRT-Yee64.pso"
+                "DisplayName": "CRT Soft",
+                "Value": "CRT-Yee64.pso",
+                "Description":[
+                   "Sonic Mania's CRT Soft filter."
+                ]
             }
         ]
     },
